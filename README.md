@@ -73,3 +73,23 @@ sqlite3 shop.db < schema.sql
 sqlite3 shop.db < seed.sql
 sqlite3 shop.db < queries/01_basic.sql
 ```
+
+## Дополнительный набор
+
+Папка `tasks/` содержит отдельные SQL-файлы. В каждом файле есть своя схема,
+тестовые данные, условие и решение.
+
+| N | Тема | Сложность |
+|---|---|---|
+| 01 | SELECT WHERE | easy |
+| 02 | ORDER BY LIMIT | easy |
+| 03 | aggregate | easy |
+| 04 | GROUP BY | easy |
+| 05 | INNER JOIN | medium |
+| 06 | LEFT JOIN | medium |
+| 07 | subquery | medium |
+| 08 | CASE | medium |
+| 09 | window rank | medium |
+| 10 | CTE report | hard |
+| 11 | UPDATE DELETE | hard |
+| 12 | multi-table report | hard |
